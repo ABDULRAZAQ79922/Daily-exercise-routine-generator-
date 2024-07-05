@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#007BFF,#fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .exercise-card {
+    margin-top: 20px;
+  }
+  
+  #exercise-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  #exercise-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #exercise-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  #generate-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #generate-btn:hover {
+    background: #0056b3;
+  }
+  
